@@ -1,0 +1,21 @@
+transformers  # Hugging Face tarafından geliştirilen doğal dil işleme için popüler bir kütüphane
+transformers[sentencepiece]  # Tokenizasyon yapmamızı sağlar, kelime kelime ayırma konusunda yardımcı olur
+datasets  # Hugging Face'den küçük veya büyük verileri çekmek için kullanıyoruz
+sacrebleu  # Makine çevirisi skorunu hesaplayan kütüphane
+rouge_score  # Metni özetleme konusunda kullanılan bir referans kütüphane diyebiliriz
+py7zr  # 7z formatında sıkıştırılmış dosyalar için yardımcı olur
+pandas  # Veri analizi için kullanılan kütüphane
+nltk  # Doğal dil işleme için kullanılan kütüphane
+tqdm  # Python'da işlemlerin görsel olarak nasıl ilerlediğini görmemiz için bar grafiği oluşturur
+PyYAML  # YAML dosyalarını kullanmak için çağırdığımız kütüphanemiz
+matplotlib  # Grafik alanı sağlar
+torch  # Sinir ağı modelleme için yaygın kullanılan PyTorch kütüphanesidir
+notebook  # Jupyter notebook ortamını sağlar
+boto3  # AWS (Amazon Web Servis) ile etkileşime geçmemizi sağlayan kütüphane
+mypy-boto3  # AWS hizmetleri için yazılmış tip kontrolü sağlayan paketimiz
+python-box  # Genellikle iç içe geçmiş sözlüklerde kullanırız
+ensure  # Belirli olan koşulların doğruluğunu garantilemek için kullanılan kütüphanemiz
+fastapi  # Hızlı web API'leri oluşturmak konusunda yardımcı olur
+uvicorn  # FastAPI gibi hızlı ASGI sunucuları oluşturur
+Jinja2  # Dinamik şekilde HTML ve diğer metin dosyalarını oluşturmak için kullanılan şablon motoru
+-e .  # Yerel bir paketi "düzenlenebilir" modda yüklememiz konusunda bize olanak sağlar
